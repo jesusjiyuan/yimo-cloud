@@ -1,0 +1,3 @@
+com.yimo.system.api.factory.RemoteUserFallbackFactory
+com.yimo.system.api.factory.RemoteLogFallbackFactory
+com.yimo.system.api.factory.RemoteFileFallbackFactory

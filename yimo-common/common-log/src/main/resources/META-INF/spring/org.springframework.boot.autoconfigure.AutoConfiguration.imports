@@ -1,0 +1,2 @@
+com.yimo.common.log.service.AsyncLogService
+com.yimo.common.log.aspect.LogAspect

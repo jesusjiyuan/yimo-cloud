@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.yimo</groupId>
+        <artifactId>yimo</artifactId>
+        <version>3.6.2</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>biz-system-api</module>
+        <module>srv-system</module>
+        <module>srv-gen</module>
+        <module>srv-job</module>
+        <module>srv-file</module>
+    </modules>
+
+    <artifactId>yimo-modules</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        yimo-modules业务模块
+    </description>
+
+</project>
