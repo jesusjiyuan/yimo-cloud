@@ -1,11 +1,11 @@
 package com.yimo.system.api.factory;
 
+import com.yimo.system.api.feign.RemoteUserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.cloud.openfeign.FallbackFactory;
 import org.springframework.stereotype.Component;
 import com.yimo.common.core.domain.R;
-import com.yimo.system.api.RemoteUserService;
 import com.yimo.system.api.domain.SysUser;
 import com.yimo.system.api.model.LoginUser;
 

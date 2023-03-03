@@ -1,5 +1,6 @@
 package com.yimo.auth.service;
 
+import com.yimo.system.api.feign.RemoteLogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import com.yimo.common.core.constant.Constants;
@@ -7,7 +8,6 @@ import com.yimo.common.core.constant.SecurityConstants;
 import com.yimo.common.core.utils.ServletUtils;
 import com.yimo.common.core.utils.StringUtils;
 import com.yimo.common.core.utils.ip.IpUtils;
-import com.yimo.system.api.RemoteLogService;
 import com.yimo.system.api.domain.SysLogininfor;
 
 /**

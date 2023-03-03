@@ -1,5 +1,6 @@
 package com.yimo.auth.service;
 
+import com.yimo.system.api.feign.RemoteUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import com.yimo.common.core.constant.Constants;
@@ -10,7 +11,6 @@ import com.yimo.common.core.enums.UserStatus;
 import com.yimo.common.core.exception.ServiceException;
 import com.yimo.common.core.utils.StringUtils;
 import com.yimo.common.security.utils.SecurityUtils;
-import com.yimo.system.api.RemoteUserService;
 import com.yimo.system.api.domain.SysUser;
 import com.yimo.system.api.model.LoginUser;
 

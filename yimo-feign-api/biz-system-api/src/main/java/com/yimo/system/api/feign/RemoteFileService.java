@@ -1,14 +1,14 @@
-package com.yimo.system.api;
+package com.yimo.system.api.feign;
 
+import com.yimo.common.core.constant.ServiceNameConstants;
+import com.yimo.common.core.domain.R;
+import com.yimo.system.api.domain.SysFile;
+import com.yimo.system.api.factory.RemoteFileFallbackFactory;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.multipart.MultipartFile;
-import com.yimo.common.core.constant.ServiceNameConstants;
-import com.yimo.common.core.domain.R;
-import com.yimo.system.api.domain.SysFile;
-import com.yimo.system.api.factory.RemoteFileFallbackFactory;
 
 /**
  * 文件服务

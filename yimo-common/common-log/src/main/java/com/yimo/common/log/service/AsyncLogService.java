@@ -1,10 +1,10 @@
 package com.yimo.common.log.service;
 
+import com.yimo.system.api.feign.RemoteLogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import com.yimo.common.core.constant.SecurityConstants;
-import com.yimo.system.api.RemoteLogService;
 import com.yimo.system.api.domain.SysOperLog;
 
 /**

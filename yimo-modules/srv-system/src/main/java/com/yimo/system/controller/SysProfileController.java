@@ -1,6 +1,8 @@
 package com.yimo.system.controller;
 
 import java.util.Arrays;
+
+import com.yimo.system.api.feign.RemoteFileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -21,7 +23,6 @@ import com.yimo.common.log.annotation.Log;
 import com.yimo.common.log.enums.BusinessType;
 import com.yimo.common.security.service.TokenService;
 import com.yimo.common.security.utils.SecurityUtils;
-import com.yimo.system.api.RemoteFileService;
 import com.yimo.system.api.domain.SysFile;
 import com.yimo.system.api.domain.SysUser;
 import com.yimo.system.api.model.LoginUser;

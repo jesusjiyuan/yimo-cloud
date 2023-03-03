@@ -1,12 +1,12 @@
 package com.yimo.system.api.factory;
 
+import com.yimo.system.api.feign.RemoteFileService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.cloud.openfeign.FallbackFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 import com.yimo.common.core.domain.R;
-import com.yimo.system.api.RemoteFileService;
 import com.yimo.system.api.domain.SysFile;
 
 /**

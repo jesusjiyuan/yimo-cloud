@@ -9,17 +9,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <modules>
-        <module>srv-system</module>
-        <module>srv-gen</module>
-        <module>srv-job</module>
-        <module>srv-file</module>
+        <module>biz-system-api</module>
     </modules>
 
-    <artifactId>yimo-modules</artifactId>
+    <artifactId>yimo-feign-api</artifactId>
     <packaging>pom</packaging>
 
     <description>
-        yimo-modules业务模块
+        yimo-feign-api业务模块
     </description>
 
 </project>

@@ -223,6 +223,7 @@
         <module>yimo-visual</module>
         <module>yimo-modules</module>
         <module>yimo-common</module>
+        <module>yimo-feign-api</module>
     </modules>
     <packaging>pom</packaging>
 

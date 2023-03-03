@@ -1,15 +1,15 @@
-package com.yimo.system.api;
+package com.yimo.system.api.feign;
 
-import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestHeader;
 import com.yimo.common.core.constant.SecurityConstants;
 import com.yimo.common.core.constant.ServiceNameConstants;
 import com.yimo.common.core.domain.R;
 import com.yimo.system.api.domain.SysLogininfor;
 import com.yimo.system.api.domain.SysOperLog;
 import com.yimo.system.api.factory.RemoteLogFallbackFactory;
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
 
 /**
  * 日志服务
