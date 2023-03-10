@@ -25,13 +25,18 @@
         <!-- yimo Api System -->
         <dependency>
             <groupId>com.yimo</groupId>
-            <artifactId>biz-system-api</artifactId>
+            <artifactId>client-system-api</artifactId>
         </dependency>
 
         <!-- yimo Common Redis-->
         <dependency>
             <groupId>com.yimo</groupId>
             <artifactId>common-redis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.yimo</groupId>
+            <artifactId>common-feign</artifactId>
         </dependency>
 
     </dependencies>

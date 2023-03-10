@@ -15,8 +15,9 @@
         <module>common-seata</module>
         <module>common-swagger</module>
         <module>common-auth</module>
-        <module>common-datascope</module>
         <module>common-datasource</module>
+        <module>common-datascope</module>
+        <module>common-feign</module>
     </modules>
 
     <artifactId>yimo-common</artifactId>

@@ -1,5 +1,6 @@
 package com.yimo.file;
 
+import com.yimo.common.feign.annotation.EnableRyFeignClients;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
@@ -11,6 +12,7 @@ import com.yimo.common.swagger.annotation.EnableCustomSwagger2;
  * @author yimo
  */
 @EnableCustomSwagger2
+@EnableRyFeignClients
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
 public class FileApplication
 {

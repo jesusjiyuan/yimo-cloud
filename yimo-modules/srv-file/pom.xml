@@ -57,7 +57,7 @@
         <!-- yimo Api System -->
         <dependency>
             <groupId>com.yimo</groupId>
-            <artifactId>biz-system-api</artifactId>
+            <artifactId>client-system-api</artifactId>
         </dependency>
         
         <!-- yimo Common Swagger -->
@@ -69,7 +69,15 @@
             <groupId>com.yimo</groupId>
             <artifactId>common-log</artifactId>
         </dependency>
-        
+        <dependency>
+            <groupId>com.yimo</groupId>
+            <artifactId>common-auth</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

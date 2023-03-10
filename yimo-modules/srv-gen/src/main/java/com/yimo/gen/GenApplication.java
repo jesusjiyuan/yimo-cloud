@@ -3,7 +3,7 @@ package com.yimo.gen;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.yimo.common.security.annotation.EnableCustomConfig;
-import com.yimo.common.security.annotation.EnableRyFeignClients;
+import com.yimo.common.feign.annotation.EnableRyFeignClients;
 import com.yimo.common.swagger.annotation.EnableCustomSwagger2;
 
 /**

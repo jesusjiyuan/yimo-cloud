@@ -7,6 +7,7 @@ import org.springframework.cloud.gateway.config.GatewayProperties;
 import org.springframework.cloud.gateway.route.RouteLocator;
 import org.springframework.cloud.gateway.support.NameUtils;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.config.ResourceHandlerRegistry;
 import org.springframework.web.reactive.config.WebFluxConfigurer;
@@ -18,6 +19,7 @@ import springfox.documentation.swagger.web.SwaggerResourcesProvider;
  * 
  * @author yimo
  */
+@Primary
 @Component
 public class SwaggerProvider implements SwaggerResourcesProvider, WebFluxConfigurer
 {
@@ -74,8 +76,8 @@ public class SwaggerProvider implements SwaggerResourcesProvider, WebFluxConfigu
         /** swagger-ui 地址 */
         registry.addResourceHandler("/swagger-ui/**")
                 .addResourceLocations("classpath:/META-INF/resources/webjars/springfox-swagger-ui/");
-        registry.addResourceHandler("doc.html")
-                .addResourceLocations("classpath:/META-INF/resources/");
+/*        registry.addResourceHandler("/doc/**")
+                .addResourceLocations("classpath:/META-INF/resources/");*/
         registry.addResourceHandler("/webjars/**")
                 .addResourceLocations( "classpath:/META-INF/resources/webjars/");
     }

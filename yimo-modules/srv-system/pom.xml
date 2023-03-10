@@ -62,6 +62,14 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.yomahub</groupId>
+            <artifactId>tlog-web-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.yomahub</groupId>
+            <artifactId>tlog-feign-spring-boot-starter</artifactId>
+        </dependency>
         
         <!-- yimo Common DataSource -->
         <dependency>
@@ -90,6 +98,10 @@
         <dependency>
             <groupId>com.yimo</groupId>
             <artifactId>common-redis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
 
     </dependencies>

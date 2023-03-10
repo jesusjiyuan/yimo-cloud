@@ -36,6 +36,7 @@
         <minio.version>8.2.2</minio.version>
         <poi.version>4.1.2</poi.version>
         <transmittable-thread-local.version>2.14.2</transmittable-thread-local.version>
+        <tlog.version>1.5.0</tlog.version>
     </properties>
 
     <!-- 依赖声明 -->
@@ -151,6 +152,31 @@
                 <version>${transmittable-thread-local.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.yomahub</groupId>
+                <artifactId>tlog-all-spring-boot-starter</artifactId>
+                <version>${tlog.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.yomahub</groupId>
+                <artifactId>tlog-gateway-spring-boot-starter</artifactId>
+                <version>${tlog.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.yomahub</groupId>
+                <artifactId>tlog-feign-spring-boot-starter</artifactId>
+                <version>${tlog.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.yomahub</groupId>
+                <artifactId>tlog-web-spring-boot-starter</artifactId>
+                <version>${tlog.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.yomahub</groupId>
+                <artifactId>tlog-dubbo-spring-boot-starter</artifactId>
+                <version>${tlog.version}</version>
+            </dependency>
             <!-- 核心模块 -->
             <dependency>
                 <groupId>com.yimo</groupId>
@@ -207,12 +233,19 @@
                 <version>${yimo.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.yimo</groupId>
+                <artifactId>common-feign</artifactId>
+                <version>${yimo.version}</version>
+            </dependency>
+
             <!-- 系统接口 -->
             <dependency>
                 <groupId>com.yimo</groupId>
-                <artifactId>biz-system-api</artifactId>
+                <artifactId>client-system-api</artifactId>
                 <version>${yimo.version}</version>
             </dependency>
+
 
         </dependencies>
     </dependencyManagement>

@@ -49,7 +49,15 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-		
+        <dependency>
+            <groupId>com.yomahub</groupId>
+            <artifactId>tlog-web-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.yomahub</groupId>
+            <artifactId>tlog-feign-spring-boot-starter</artifactId>
+        </dependency>
+
         <!-- yimo Common Security-->
         <dependency>
             <groupId>com.yimo</groupId>
@@ -59,7 +67,11 @@
             <groupId>com.yimo</groupId>
             <artifactId>common-log</artifactId>
         </dependency>
-        
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
     </dependencies>
 	
     <build>
